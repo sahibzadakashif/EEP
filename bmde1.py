@@ -258,4 +258,10 @@ with row1:
     st.write("Assistant Professor | Department of Health Professional Technologies, Faculty of Allied Health Sciences, The University of Lahore")
     st.write("Post-Doctoral Fellow | Henan University of Technology,Zhengzhou China ")
     st.write("Email: kashif.iqbal@dhpt.uol.edu.pk | kashif.iqbal@haut.edu.cn")
-    
+with row2:
+ st.write("")
+ st.write("### Rizwan Abid")
+ st.write("PhD Biochemistry")
+ st.write("School of Biochemistry and Biotechnology")
+ st.write("University of the Punjab, Lahore")
+ st.write("Email: rizwan.phd.ibb@pu.edu.pk")    
