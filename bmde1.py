@@ -6,7 +6,6 @@ from Pfeature.pfeature import aac_wp, btc_wp
 import os
 import numpy as np
 from stmol import showmol
-import py3Dmol
 import requests
 from Bio import SeqIO
 from io import StringIO
