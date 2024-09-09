@@ -267,8 +267,9 @@ with col2:
         <div style='line-height: 1.1;'>
             <h3>Dr. Muhammad Faisal</h3>
             PhD Biochemistry<br>
+            Institute of Biochemistry and Biotechnology<br>
             PMAS Agriculture University, Rawalpindi<br>
-            Email: haseeb.nisar@umt.edu.pk
+            Email: faisal575pk@gmail.com
         </div>
     """, unsafe_allow_html=True)
 with col3:
