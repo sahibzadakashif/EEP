@@ -271,7 +271,7 @@ with col2:
             Email: haseeb.nisar@umt.edu.pk
         </div>
     """, unsafe_allow_html=True)
- with col3:
+with col3:
     # st.image("colleague-photo.jpg", width=100)
     st.markdown("""
         <div style='line-height: 1.1;'>
