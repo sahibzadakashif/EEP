@@ -248,21 +248,49 @@ if st.session_state.page == 'output':
 
 st.markdown("---")
 st.header("Developers Team:")
+# Define columns for the profiles
+col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
 
-row1, row2 = st.columns([1, 1])
-row3 = st.columns(1)
+with col1:
+    # st.image("my-photo.jpg", width=100)
+    st.markdown("""
+        <div style='line-height: 1.1;'>
+            <h3>Dr. Kashif Iqbal Sahibzada</h3>
+             Assistant Professor | Department of Health Professional Technologies, Faculty of Allied Health Sciences, The University of Lahore<br>
+            Post-Doctoral Fellow | Henan University of Technology,Zhengzhou China<br>
+            Email: kashif.iqbal@dhpt.uol.edu.pk | kashif.iqbal@haut.edu.cn
+        </div>
+    """, unsafe_allow_html=True)
+with col2:
+    # st.image("teacher-photo.jpg", width=100)
+    st.markdown("""
+        <div style='line-height: 1.1;'>
+            <h3>Dr. Muhammad Faisal</h3>
+            PhD Biochemistry<br>
+            PMAS Agriculture University, Rawalpindi<br>
+            Email: haseeb.nisar@umt.edu.pk
+        </div>
+    """, unsafe_allow_html=True)
+ with col3:
+    # st.image("colleague-photo.jpg", width=100)
+    st.markdown("""
+        <div style='line-height: 1.1;'>
+            <h3>Dr. Rizwan Abid</h3>
+            PhD Biochemistry<br>
+            School of Biochemistry and Biotechnology<br>
+            University of the Punjab, Lahore<br>
+            Email: rizwan.phd.ibb@pu.edu.pk
+        </div>
+    """, unsafe_allow_html=True)
+with col4:
+    # st.image("teacher-photo.jpg", width=100)
+    st.markdown("""
+        <div style='line-height: 1.1;'>
+            <h3>Shumaila Shahid</h3>
+            MS Biochemistry<br>
+            School of Biochemistry and Biotechnology<br>
+            University of the Punjab<br>
+            Email: shumaila.ms.sbb@pu.edu.pk
+        </div>
+    """, unsafe_allow_html=True)
 
-with row1:
-    st.write("")
-    st.write("### Dr. Kashif Iqbal Sahibzada")
-    #st.write("Assistant Professor")
-    st.write("Assistant Professor | Department of Health Professional Technologies, Faculty of Allied Health Sciences, The University of Lahore")
-    st.write("Post-Doctoral Fellow | Henan University of Technology,Zhengzhou China ")
-    st.write("Email: kashif.iqbal@dhpt.uol.edu.pk | kashif.iqbal@haut.edu.cn")
-with row2:
- st.write("")
- st.write("### Rizwan Abid")
- st.write("PhD Biochemistry")
- st.write("School of Biochemistry and Biotechnology")
- st.write("University of the Punjab, Lahore")
- st.write("Email: rizwan.phd.ibb@pu.edu.pk")   
