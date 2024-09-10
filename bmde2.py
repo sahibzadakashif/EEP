@@ -267,8 +267,8 @@ with col2:
         <div style='line-height: 1.1;'>
             <h3>Dr. Muhammad Faisal</h3>
             PhD Biochemistry<br>
-            Institute of Biochemistry and Biotechnology<br>
-            PMAS Agriculture University, Rawalpindi<br>
+            University Institute of Biochemistry and Biotechnology<br>
+            PMAS-Arid Agriculture University, Rawalpindi<br>
             Email: faisal575pk@gmail.com
         </div>
     """, unsafe_allow_html=True)
