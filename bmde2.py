@@ -72,7 +72,7 @@ if __name__ == "__main__":
     main()
 
 # Load the trained model
-model_file = "model.pkl"  # Ensure this path is correct
+model_file = "eep.pkl"  # Ensure this path is correct
 model = joblib.load(model_file)
 
 if 'current_seq_idx' not in st.session_state:
