@@ -3,9 +3,9 @@ import pandas as pd
 import joblib
 from sklearn.ensemble import RandomForestClassifier
 from Pfeature.pfeature import aac_wp, btc_wp
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, Dropout
-from tensorflow.keras.utils import to_categorical
+#from tensorflow.keras.models import Sequential
+#from tensorflow.keras.layers import Dense, Dropout
+#from tensorflow.keras.utils import to_categorical
 import os
 import numpy as np
 from stmol import showmol
@@ -297,4 +297,5 @@ with col4:
             Email: shumaila.ms.sbb@pu.edu.pk
         </div>
     """, unsafe_allow_html=True)
+
 
